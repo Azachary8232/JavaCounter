@@ -14,5 +14,9 @@
 </head>
 <body>
 
+<div class="container m-5">
+	<h1 class="m-5 textAlign">Welcome User!</h1>
+</div>
+
 </body>
 </html>
