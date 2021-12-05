@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 
 @Controller
-@RequestMapping("your_server")
+@RequestMapping("/your_server")
 public class CounterControllers {
 
 	
@@ -48,7 +48,7 @@ public class CounterControllers {
 	}
 
 	
-	@RequestMapping("counter")
+	@RequestMapping("/counter")
 	public String counter() {
 		return "currentCount.jsp";
 	}

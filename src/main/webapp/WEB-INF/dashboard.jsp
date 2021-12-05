@@ -17,6 +17,9 @@
 <div class="container m-5">
 	<h1 class="m-5 textAlign">Welcome User!</h1>
 </div>
+<div>
+<a href="/your_server/counter">Counter</a>
+</div>
 
 </body>
 </html>
