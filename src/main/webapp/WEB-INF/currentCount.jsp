@@ -15,6 +15,7 @@
 <body>
 
 
-<h1>Hello World</h1>
+<h1>You have visited <span><a href="">http://your_server</a></span>SAMPLE times.</h1>
+<a href="/your_server">Test another visits?</a>
 </body>
 </html>
