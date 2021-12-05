@@ -52,6 +52,12 @@ public class CounterControllers {
 	public String counter() {
 		return "currentCount.jsp";
 	}
+	
+	@RequestMapping("/counter/reset")
+	public String counterReset(HttpSession session) {
+		session.setAttribute("count", 0);
+		return "currentCount.jsp";
+	}
 
 	
 	

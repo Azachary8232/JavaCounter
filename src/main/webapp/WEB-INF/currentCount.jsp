@@ -18,6 +18,7 @@
 <h1>You have visited <span><a href="">http://your_server</a></span> <span> <c:out value="${count}"></c:out> </span> times.</h1>
 <a href="/your_server">Test another visit?</a>
 <a href="/your_server/x2">Test X2 visit?</a>
+<a href="/your_server/counter/reset">Reset Count</a>
 </div>
 </body>
 </html>
