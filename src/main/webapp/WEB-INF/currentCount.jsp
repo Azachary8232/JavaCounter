@@ -14,8 +14,9 @@
 </head>
 <body>
 
-
+<div class="container m-5">
 <h1>You have visited <span><a href="">http://your_server</a></span> <span> <c:out value="${count}"></c:out> </span> times.</h1>
 <a href="/your_server">Test another visits?</a>
+</div>
 </body>
 </html>
