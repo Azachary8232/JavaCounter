@@ -10,13 +10,14 @@
 <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css" />
 <script src="/webjars/jquery/jquery.min.js"></script>
 <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
-<title>Insert title here</title>
+<title>Current Count</title>
 </head>
 <body>
 
 <div class="container m-5">
 <h1>You have visited <span><a href="">http://your_server</a></span> <span> <c:out value="${count}"></c:out> </span> times.</h1>
-<a href="/your_server">Test another visits?</a>
+<a href="/your_server">Test another visit?</a>
+<a href="/your_server/x2">Test X2 visit?</a>
 </div>
 </body>
 </html>
